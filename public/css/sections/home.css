@@ -1,0 +1,118 @@
+/* 
+    Document   : home.css
+    Author     : Invento Casa Criativa
+*/
+
+/* +body */
+
+/* Ajusta o header para a home */
+header { position: absolute; left:0; top: 0; z-index: 10; }
+header nav>ul>li.expand:hover>a { background-image: url("../../imgs/estrutura/seta-menu-branca.png"); }
+
+.carrossel-empreendimentos .botao-banner { display: block; padding:0 47px 0 15px; height: 32px; background: #eeefef url("../../imgs/home/botao-banner.png") center right no-repeat; text-decoration: none; text-transform: uppercase; font-size: 11px; color: #4e4178; }
+.carrossel-empreendimentos .botao-banner span { vertical-align: middle; line-height: 34px; }
+.carrossel-empreendimentos h1 { color: #fff; text-transform: uppercase; font-family: 'Dosis', sans-serif; letter-spacing:.05em; }
+
+.o-que-fazemos { background: #eeefef; }
+a.botao-pos-titulo { display: table; padding:0 10px; margin-top: 20px; height: 32px; background: #fff; text-decoration: none; text-transform: uppercase; font-family: 'Dosis', sans-serif; letter-spacing: .05em; font-size: 12px; color: #4e4178; }
+a.botao-pos-titulo span { vertical-align: middle; line-height: 32px; }
+
+@media screen and (max-width: 768px)  {
+	header #slogan { margin:15px 0 0 10px; line-height:130%; letter-spacing:.1em; color: #fff; text-transform: uppercase; font-size: 10px; font-family: 'Open Sans', sans-serif; font-weight: 300; }
+	header nav { padding-top:20px; }
+
+	.carrossel-empreendimentos ul { height: 460px; background: #999; overflow: hidden; }
+	.carrossel-empreendimentos ul li { height: 460px; width: 100%; float: left; position: relative; }
+	.carrossel-empreendimentos .botao-banner { position: absolute; bottom: 65px; left: 14px; }
+	.carrossel-empreendimentos h1 { position: absolute; bottom: 115px; font-size: 45px; }
+
+	/* o que fazemos */
+	.o-que-fazemos .container { padding-top: 50px; padding-bottom: 30px; }
+	.o-que-fazemos ul { margin-top: 20px; }
+	.o-que-fazemos li { padding: 0 0 20px 0; box-sizing: border-box; }
+	.o-que-fazemos li > div { padding: 0 0 0 10px; border-left: #fff 2px solid; }
+	.o-que-fazemos h2 { margin-bottom:5px; text-transform: uppercase; font-family: 'Dosis', sans-serif; letter-spacing:.05em; font-size: 22px; color: #eca93d; }
+	.o-que-fazemos p { width: 80%; line-height: 180%; font-family: 'Open Sans', sans-serif; font-weight: 300; font-size: 14px; color: #1a1142; }
+
+	/* projetos em destaque */
+	.projetos-destaque { padding: 50px 0 36px 0; }
+	.projetos-destaque h1 { margin-bottom: 20px; }
+	.projetos-destaque ul {  }
+	.projetos-destaque ul li { position: relative; margin: 0 0 14px 0; }
+	.projetos-destaque ul li a { display: block; height: 285px; overflow: hidden; background: #f00; position: relative; }
+	.projetos-destaque ul li a img { display: block; position: relative; transform: translate(0,-38%); width: 100%; }
+	.botao-projetos { display: block; padding:0 47px 0 15px; height: 32px; background: #eeefef url("../../imgs/home/botao-banner.png") center right no-repeat; text-transform: uppercase; font-family: 'Dosis', sans-serif; letter-spacing:.05em; color: #4e4178; font-size: 18px; color: #4e4178; position: absolute; bottom: 10px; left: 0;  }
+	.botao-projetos span { vertical-align: middle; line-height: 32px; }
+
+}
+
+@media screen and (min-width: 769px)  {
+
+	/* Ajusta o header para a home que é a única diferente */
+	header { padding: 50px 80px 0 61px; }
+	header #slogan { margin-top:26px; line-height:130%; letter-spacing:.1em; color: #fff; text-transform: uppercase; font-size: 10px; font-family: 'Open Sans', sans-serif; font-weight: 300; }
+	header nav { padding-top:20px; }
+	header nav>ul>li a { color: #fff; }
+
+	.carrossel-empreendimentos ul { height: 745px; background: #999; overflow: hidden; }
+	.carrossel-empreendimentos ul li { height: 745px; width: 100%; float: left; position: relative; }
+	.carrossel-empreendimentos .botao-banner { position: absolute; bottom: 236px; left: 15px; }
+	.carrossel-empreendimentos h1 { position: absolute; bottom: 298px; font-size: 77px; word-break: break-word; width: 380px;}
+	
+	/* o que fazemos */
+	.o-que-fazemos .container { height: 340px; 
+		display: flex; 
+		-moz-display: flex; 
+		-webkit-display: flex; 
+		-ms-display: flex; 
+		align-items:center; 
+		-moz-align-items:center; 
+		-webkit-align-items:center; 
+		-ms-align-items:center; 
+		justify-content: space-between;
+	}
+	.o-que-fazemos ul { width: 70%; }
+	.o-que-fazemos li { padding: 0 0 0 30px; width: 50%; float: left; box-sizing: border-box; }
+	.o-que-fazemos li > div { padding: 0 0 0 10px; border-left: #fff 2px solid; }
+	.o-que-fazemos li:last-child {  }
+	.o-que-fazemos h2 { margin-bottom:25px; text-transform: uppercase; font-family: 'Dosis', sans-serif; letter-spacing:.05em; font-size: 26px; color: #eca93d; }
+	.o-que-fazemos p { width: 75%; line-height: 180%; font-family: 'Open Sans', sans-serif; font-weight: 300; font-size: 14px; color: #1a1142; }
+	
+
+	/* projetos em destaque */
+	.projetos-destaque { padding: 113px 0 135px 0; }
+	.projetos-destaque h1 { margin-bottom: 63px; }
+	.projetos-destaque ul {  }
+	.projetos-destaque ul li { width: 33.3333%; position: relative; box-sizing: border-box; float: left; }
+	/* .projetos-destaque ul li:first-child { width: 66.6666%; } */
+	.projetos-destaque ul li a { display: block; margin: 0 7px 14px 7px; height: 285px; overflow: hidden; background: #f00; position: relative; }
+	/* .projetos-destaque ul li:nth-child(3n+3) a, .projetos-destaque ul li:first-child a { margin-left: 0; }
+	.projetos-destaque ul li:nth-child(3n+5) a, .projetos-destaque ul li:nth-child(2) a { margin-right: 0; } */
+	/* .projetos-destaque ul li:nth-child(-n+2) a { height: 358px; } */
+	.projetos-destaque ul li a img { display: block; position: relative; transform: translate(0,-48%); width: 100%;}
+	.botao-projetos { display: block; padding:0 47px 0 15px; height: 32px; background: #eeefef url("../../imgs/home/botao-banner.png") center right no-repeat; text-transform: uppercase; font-family: 'Dosis', sans-serif; letter-spacing:.05em; color: #4e4178; font-size: 18px; color: #4e4178; position: absolute; bottom: 10px; left: 0;  }
+	.botao-projetos span { vertical-align: middle; line-height: 32px; }
+	
+	.owl-theme .owl-nav {
+		margin-top: 10px;
+		position: absolute;
+		bottom: 130px;
+		width: 100%;
+	}
+
+	.owl-theme .owl-nav button{ position: absolute; width: 50%; }
+	.owl-theme .owl-nav button img{ width: 40px; }
+	.owl-theme .owl-nav button:hover{ background-color: transparent !important; }
+	.owl-theme .owl-nav button:focus{ outline: none; }
+	.owl-theme .owl-nav button.owl-next{ right: 20px; text-align: right; }
+	.owl-theme .owl-nav button.owl-prev{ left: 20px; text-align: left; }
+	/* .owl-theme .owl-nav button img.logo-nav{ height: 80px; margin: 0 15px} */
+
+}
+@media screen and (min-width: 992px)  {
+
+}
+
+@media screen and (min-width: 1170px)  {
+   
+}

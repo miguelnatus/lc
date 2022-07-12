@@ -1,0 +1,110 @@
+/* 
+    Document   : style.css
+    Author     : Invento Casa Criativa
+    Summary    :
+            +body
+            |   +wrapper
+            |   |   +header
+            |   |   +content
+            |   |   +footer
+*/
+
+/* fonts */
+.dosis { font-family: 'Dosis', sans-serif; }
+.open-sans { font-family: 'Open Sans', sans-serif; }
+
+/* +body */
+body { font-family: 'Open Sans', sans-serif; }
+
+/* +estutura básica */
+#wrapper {  }
+.container { height:100%; max-width: 1220px; box-sizing: border-box; margin: 0 auto; padding: 0 10px; position: relative; }
+a { text-decoration: none; }
+.texto-simples { color:#4e4178; font-size: 14px; line-height: 180%; letter-spacing: .05; font-weight: 300; }
+
+/* +header */
+header { position: relative; }
+header h1 {  }
+body:not(#home) header #slogan { display: none; } /* exibir o slogan apenas na home, mas mantém no markup para as outras páginas */
+/* end:header */
+
+/* +navegação */
+
+/* end:navegação; */
+
+/* +footer */
+footer { height:275px; background:#1a1142; }
+footer address {  padding-top:56px; text-align: center; color: #fff; font-family: 'Dosis', sans-serif; font-size: 18px; letter-spacing:.15em; }
+footer address a { color: #fff; text-decoration: none; }
+footer .social-media-menu { margin:32px auto 0; width: 92px; }
+footer .social-media-menu li { margin-right:13px; height: 23px; width: 22px; float: left; }
+footer .social-media-menu li:last-child { margin-right: 0; }
+footer .social-media-menu li a { display:block; width:22px; height: 23px; background: url("../imgs/estrutura/sprite-social-icon.png"); }
+footer .social-media-menu li a.facebook { background-position: 0 0; }
+footer .social-media-menu li a.instagram { background-position: -35px 0; }
+footer .social-media-menu li a.linkedin { background-position: -70px 0; }
+footer .assinatura-invento { display:block; margin: 62px auto 0; width:55px; height:12px; background: url("../imgs/estrutura/assinatura-invento.png"); }
+footer .copyright { margin-top:19px; text-align: center; text-transform: uppercase; color: #4e4178; font-family: 'Open Sans', sans-serif; font-size: 9px; }
+/* end:footer */
+
+@media screen and (max-width: 768px)  {
+	/* títulos desktop */
+	.titulo-duas-linhas { margin-left:0; padding-left:9px; border-left: #eca93d 2px solid; color: #1a1142; text-transform: uppercase; font-family: 'Dosis', sans-serif; font-size: 38px; letter-spacing:.05em; line-height: 32px; }
+	.titulo-duas-linhas span { display:block; margin-left: 3px; margin-bottom: 13px; text-transform:lowercase; font-size: 24px; line-height: 8px; }
+
+	header { box-sizing: border-box; width: 100%; margin-bottom: 30px; }
+	header .brand { float: left; }
+	header .brand img { height: 40px; margin: 10px 0 0 10px;  }
+	header #mobile-menu-icon { float: right; margin-right: 10px; height: 54px; width: 45px; background: url("../../imgs/estrutura/mobile-menu-icon.png"); }
+	header nav { display: none; position: absolute; top:0; right: 0; width: 100%; background: #fff; transition:right 0.6s; z-index: 1002; }
+	header nav>ul { padding: 15px; }
+	header nav>ul>li { padding: 10px; }
+	header nav>ul>li ul { padding-top: 10px; }
+	header nav>ul>li li { padding: 10px; }
+	header nav>ul>li li:last-child { padding-bottom: 0; }
+	header nav>ul>li li a { padding-left: 5px; }
+	header nav a { display: block; text-decoration: none; font-family: 'Dosis', sans-serif; font-size: 20px; letter-spacing: .05em; text-transform: uppercase; color:#4e4178; }
+	header nav br { display:none; }
+	header nav .fechar-menu { position: absolute; top:10px; right: 10px; width: 27px; height: 28px; background: url("../../imgs/estrutura/fechar-menu.png") center center no-repeat; }
+	
+}
+
+@media screen and (min-width: 769px)  {
+	
+	/* títulos desktop */
+	.titulo-duas-linhas { margin-left:-15px; padding-left:9px; border-left: #eca93d 2px solid; color: #1a1142; text-transform: uppercase; font-family: 'Dosis', sans-serif; font-size: 58px; letter-spacing:.05em; line-height: 45px; }
+	.titulo-duas-linhas span { display:block; margin-left: 3px; margin-bottom: 18px; text-transform:lowercase; font-size: 32px; line-height: 8px; }
+	
+	/* cabecalho desktop */
+	header { box-sizing: border-box; padding: 70px 80px 86px 61px; width: 100%; }
+	header .brand { float: left; }
+	header #mobile-menu-icon { display: none; }
+	/* menu */
+	header nav { float: right; }
+	header nav a { display: block; text-decoration: none; font-family: 'Dosis', sans-serif; font-size: 14px; letter-spacing: .05em; }
+	header nav>ul {  }
+	header nav>ul>li { float: left; border-left: #eca93d 2px solid; }
+	header nav>ul>li>a { padding: 0 36px 0 5px; min-height: 26px; text-transform: uppercase; color: #4e4178; }
+	header nav>ul>li:last-child>a { padding-right: 0; }
+	header nav>ul>li>a:hover {  }
+	header nav>ul>li.expand:hover>a { background: url("../imgs/estrutura/seta-menu-azul.png") 89px 13px no-repeat; position: relative; }
+	/* submenu */
+	header nav .submenu { display: none; position: absolute; border-left: #eca93d 2px solid; margin-left: -2px; z-index: 100; padding: 0 3px 5px; } 
+	header nav .submenu li:first-child { margin-top: 5px; }
+	header nav .submenu a { padding: 10px 0 0 13px; text-transform: lowercase; } 
+	/* ativa submenu - melhorar */
+	header nav>ul>li:hover .submenu { display: block; }
+}
+
+@media screen and (min-width: 992px)  {
+
+}
+
+@media screen and (min-width: 1170px)  {
+   
+}
+
+.caracteristicas .car-linda-vista span { background-image: url("../../public/imgs/empreendimentos/caracteristicas/linda-vista.png");  }
+.caracteristicas .car-jardim span { background-image: url("../../public/imgs/empreendimentos/caracteristicas/jardim.png");  }
+.caracteristicas .car-area-de-lazer span { background-image: url("../../public/imgs/empreendimentos/caracteristicas/area-de-lazer.png");  }
+.caracteristicas .car-academia span { background-image: url("../../public/imgs/empreendimentos/caracteristicas/academia.png");  }

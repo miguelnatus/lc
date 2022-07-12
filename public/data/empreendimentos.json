@@ -1,0 +1,259 @@
+[
+    {
+        "nome" : "Gardens Residence",
+        "slug" : "gardens-residence",
+        "descricao" : "Viver bem é compartilhar os bons momentos, ter espaço para relaxar e aproveitar ao lado da família e amigos. Por isso, oferecemos uma ampla infraestrutura, perfeita para o estilo de vida contemporâneo. E o melhor, você pode aproveitar tudo no conforto do seu lar.", 
+        "tour_virtual" : "http://www.3dimagem.com.br/upload/clientes/LC/CoronelFlores/Living/14LCCoronelFloresTOUR360LIVING02.html",
+        "logo" : "logo-gardens.png",
+        "banner" : "gardens-banner.jpg",
+        "foto_capa" : "foto-gardens.jpg",
+        "fotos_empreendimentos" : ["img-1.jpg","img-2.jpg","img-3.jpg","img-4.jpg","img-5.jpg","img-6.jpg","img-7.jpg","img-8.jpg","img-9.jpg","img-10.jpg"],
+        "fotos_plantas" : ["img-1.jpg","img-2.jpg","img-3.jpg"],
+        "fotos_obras" : ["img-1.jpg","img-2.jpg","img-3.jpg","img-4.jpg","img-5.jpg","img-6.jpg","img-7.jpg","img-8.jpg","img-9.jpg"],
+        "endereco" : "<p>RUA R. CEL. FLÔRES<br>BAIRRO CENTRO</p><p>TAQUARA / RS</p>",
+        "mapa" : "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1733.67595459694!2d-50.78120202347299!3d-29.651560998626575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDM5JzA1LjYiUyA1MMKwNDYnNTAuMiJX!5e0!3m2!1spt-BR!2sbr!4v1537895134094' width='100%' height='464' frameborder='0' style='border:0' allowfullscreen></iframe>",
+        "tipo" : "residencial",
+        "caracteristicas" : [
+            {
+                "descricao" : "Salão de Festas (mobiliado)",
+                "icon" : "salao-de-festa.png"
+            },
+            {
+                "descricao" : "Piscina aquecida",
+                "icon" : "piscina.png"
+            },
+            {
+                "descricao" : "Sauna",
+                "icon" : "sauna.png"
+            },
+            {
+                "descricao" : "Sala de Ginástica (equipada)",
+                "icon" : "academia.png"
+            },
+            {
+                "descricao" : "Brinquedoteca (mobiliado)",
+                "icon" : "brinquedoteca.png"
+            },
+            {
+                "descricao" : "Espaço para Horta",
+                "icon" : "horta.png"
+            },
+            {
+                "descricao" : "1 Suíte",
+                "icon" : "suite.png"
+            },
+            {
+                "descricao" : "2 Quartos",
+                "icon" : "dois-quartos.png"
+            },
+            {
+                "descricao" : "Até 123m² de Área Privativa",
+                "icon" : "area-privada.png"
+            },
+            {
+                "descricao" : "2 Garagens por Apartamento",
+                "icon" : "garagem.png"
+            },
+            {
+                "descricao" : "Lavabo",
+                "icon" : "lavabo.png"
+            }
+        ]
+    },
+    {
+        "nome" : "Santa Catharina",
+        "slug" : "santa-catharina",
+        "descricao" : "Sua liberdade agora encontrou um novo espaço. Agora você pode aproveitar a vida conectado com o que há de melhor na cidade, e descobrir que morar no Santa Catharina é encontrar um lugar onde você pode expressar o seu estilo e construir um futuro com tranquilidade e segurança.", 
+        "logo" : "logo-santa.png",
+        "banner" : "santa-catharina-banner.jpg",
+        "foto_capa" : "foto-santa-catharina.jpg",
+        "fotos_empreendimentos" : ["img-1.jpg","img-2.jpg","img-3.jpg","img-4.jpg","img-5.jpg","img-6.jpg","img-7.jpg"],
+        "fotos_plantas" : ["img-1.jpg"],
+        "fotos_obras" : [],
+        "endereco" : "<p>RUA ARNALDO DA COSTA BARD<br>BAIRRO CENTRO</p><p>TAQUARA / RS</p>",
+        "mapa" : "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1733.7639511662337!2d-50.78074834185032!3d-29.646451995507217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDM4JzQ3LjIiUyA1MMKwNDYnNDYuOCJX!5e0!3m2!1spt-BR!2sbr!4v1537895731809' width='100%' height='464' frameborder='0' style='border:0' allowfullscreen></iframe>",
+        "tipo" : "residencial",
+        "caracteristicas" : [
+            {
+                "descricao" : "1 Suíte",
+                "icon" : "suite.png"
+            },
+            {
+                "descricao" : "2 Quartos",
+                "icon" : "dois-quartos.png"
+            },
+            {
+                "descricao" : "Sistema de Gás Central",
+                "icon" : "gas.png"
+            },
+            {
+                "descricao" : "salão de festas",
+                "icon" : "salao-de-festa.png"
+            },
+            {
+                "descricao" : "garagem individual",
+                "icon" : "garagem.png"
+            },
+            {
+                "descricao" : "academia",
+                "icon" : "academia.png"
+            },
+            {
+                "descricao" : "brinquedoteca",
+                "icon" : "brinquedoteca.png"
+            },
+            {
+                "descricao" : "personalização da planta",
+                "icon" : "planta.png"
+            },
+            {
+                "descricao" : "jardim externo",
+                "icon" : "jardim.png"
+            },
+            {
+                "descricao" : "sacada com vista para a cidade",
+                "icon" : "paisagem.png"
+            }
+        ]
+    },
+    {
+        "nome" : "Ana Júlia",
+        "slug" : "ana-julia",
+        "descricao" : "Viver perto do que te faz bem é estar com sua família, morando no centro da cidade, próximo a tudo de bom que ela oferece, em um apartamento personalizado, perfeito pro seu estilo de vida.", 
+        "logo" : "logo-ana-julia.png",
+        "banner" : "ana-julia-banner.jpg",
+        "foto_capa" : "foto-ana-julia.jpg",
+        "fotos_empreendimentos" : ["img-1.jpg","img-2.jpg","img-3.jpg"],
+        "fotos_plantas" : ["img-1.jpg","img-2.jpg"],
+        "fotos_obras" : [],
+        "endereco" : "<p>RUA GENERAL FROTA, 2386<br>BAIRRO CENTRO</p><p>TAQUARA / RS</p>",
+        "mapa" : "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3467.393540931402!2d-50.785011549040114!3d-29.650352519931058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951918dffbf663c9%3A0x5d08a6448f212d37!2sR.%20Gen.%20Frota%2C%202386%20-%20Centro%2C%20Taquara%20-%20RS%2C%2095600-000!5e0!3m2!1spt-BR!2sbr!4v1579626957398!5m2!1spt-BR!2sbr' width='100%' height='464' frameborder='0' style='border:0' allowfullscreen></iframe>",
+        "tipo" : "residencial",        
+        "caracteristicas" : [
+            {
+                "descricao" : "Salão de Festas (mobiliado)",
+                "icon" : "salao-de-festa.png"
+            },
+            {
+                "descricao" : "Bicicletário",
+                "icon" : "bicicletario.png"
+            },
+            {
+                "descricao" : "Paisagismo",
+                "icon" : "jardim.png"
+            },
+            {
+                "descricao" : "Reaproveitamento de água da chuva",
+                "icon" : "agua-da-chuva.png"
+            },
+            {
+                "descricao" : "1 Suíte",
+                "icon" : "suite.png"
+            },
+            {
+                "descricao" : "2 Quartos",
+                "icon" : "dois-quartos.png"
+            },
+            {
+                "descricao" : "1 Garagens por Apartamento",
+                "icon" : "garagem.png"
+            }
+        ]
+    },
+	{
+        "nome" : "Floriano Concept",
+        "slug" : "floriano-concept",
+        "descricao" : "Inspirados pela perfeição da natureza, criamos o Floriano Concept, um refúgio de conforto para você recarregar suas energias enquanto se conecta com sua essência, com as pessoas que você ama e com a vitalidade pulsante do planeta.", 
+        "logo" : "logo-floriano.png",
+        "banner" : "floriano-banner.jpg",
+        "foto_capa" : "foto-floriano.jpg",
+        "fotos_empreendimentos" : ["img-1.jpg","img-2.jpg","img-3.jpg","img-4.jpg","img-5.jpg","img-6.jpg","img-7.jpg","img-8.jpg","img-9.jpg","img-10.jpg","img-11.jpg"],
+        "fotos_plantas" : ["img-1.jpg","img-2.jpg","img-3.jpg"],
+        "fotos_obras" : [],
+        "endereco" : "<p>MARECHAL FLORIANO, 966<BR>BAIRRO CENTRO</p><p>TAQUARA / RS</p>",
+        "mapa" : "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3467.404390196667!2d-50.779231784582315!3d-29.650037582027483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951919273eb87eab%3A0xa80abcc80c3b206b!2sR.%20Mal.%20Floriano%2C%20966%20-%20Centro%2C%20Taquara%20-%20RS%2C%2095600-000!5e0!3m2!1spt-BR!2sbr!4v1632406596468!5m2!1spt-BR!2sbr' width='100%' height='464' frameborder='0' style='border:0' allowfullscreen></iframe>",
+        "tipo" : "residencial",        
+        "caracteristicas" : [
+            {
+                "descricao" : "Salão de Festas",
+                "icon" : "salao-de-festa.png"
+            },
+			{
+                "descricao" : "Brinquedoteca",
+                "icon" : "brinquedoteca.png"
+            },
+			{
+                "descricao" : "Escritório Colaborativo",
+                "icon" : "escritorio-compartilhado-2.png"
+            },
+			{
+                "descricao" : "Sala de Ginástica",
+                "icon" : "academia.png"
+            },
+            {
+                "descricao" : "Jardim",
+                "icon" : "jardim.png"
+            },
+			{
+                "descricao" : "Rooftop com lareira de chão, espaço relax, ofurô e vista do nascer e do pôr-do-sol",
+                "icon" : "area-de-lazer.png"
+            },			
+            {
+                "descricao" : "Bicicletário",
+                "icon" : "bicicletario.png"
+            }
+        ]
+    },
+	{
+        "nome" : "Château Blanc",
+        "slug" : "chateau-blanc",
+        "descricao" : "Toda a sofisticação e a beleza clássica da arquitetura francesa combinadas para criar um empreendimento único na cidade mais linda da Serra Gaúcha: Gramado. O Château Blanc é exuberante, nobre, imponente e maravilhoso. Como um castelo deve ser.", 
+        "logo" : "logo-chateau-blanc.png",
+        "banner" : "chateau-blanc-banner.jpg",
+        "foto_capa" : "foto-chateau-blanc.jpg",
+        "fotos_empreendimentos" : ["img-1.jpg","img-2.jpg","img-3.jpg","img-4.jpg","img-5.jpg","img-6.jpg","img-7.jpg","img-8.jpg"],
+        "fotos_plantas" : ["img-1.jpg","img-2.jpg","img-3.jpg","img-4.jpg","img-5.jpg","img-6.jpg","img-7.jpg","img-8.jpg","img-9.jpg","img-10.jpg"],
+        "fotos_obras" : [],
+        "endereco" : "<p>RUA PIRATINI, 1020<BR>BAIRRO PLANALTO</p><p>GRAMADO / RS</p>",
+        "mapa" : "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3476.376870059401!2d-50.879783584587834!3d-29.38852938212573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95193247c8932e4d%3A0x3a22b6a576119dbc!2sR.%20Piratini%2C%201020%2C%20Gramado%20-%20RS%2C%2095670-000!5e0!3m2!1spt-BR!2sbr!4v1638824849784!5m2!1spt-BR!2sbr' width='100%' height='464' frameborder='0' style='border:0' allowfullscreen></iframe>",
+        "tipo" : "residencial",        
+        "caracteristicas" : [
+            {
+                "descricao" : "Bosque nativo",
+                "icon" : "bosque-nativo.png"
+            },
+			{
+                "descricao" : "Deck no interior do bosque",
+                "icon" : "deck-no-bosque.png"
+            },
+			{
+                "descricao" : "Áreas de uso comum mobiliadas e equipadas",
+                "icon" : "areas-de-uso-comum-mobiliadas-e-equipadas.png"
+            },
+			{
+                "descricao" : "Terreno 100% fechado com muros e grades",
+                "icon" : "area-com-grades.png"
+            },
+            {
+                "descricao" : "Sistema de segurança e monitoramento instalado",
+                "icon" : "seguranca-e-monitoramento.png"
+            },
+			{
+                "descricao" : "Sistema de acesso eletrônico instalado",
+                "icon" : "acesso-eletronico.png"
+            },			
+            {
+                "descricao" : "Esquadrias de PVC com vidros duplos",
+                "icon" : "esquadrias-de-pvc.png"
+            },			
+            {
+                "descricao" : "Dormitórios e salas com janelas piso/teto",
+                "icon" : "janelas-pisoteto.png"
+            },			
+            {
+                "descricao" : "Salas com janelas tipo bay-Window",
+                "icon" : "bay-window.png"
+            }
+        ]
+    }
+]

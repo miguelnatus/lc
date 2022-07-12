@@ -1,0 +1,193 @@
+[
+    {
+        "nome" : "Lisboa",
+        "slug" : "lisboa",
+        "tipo" : "residencial",
+        "descricao" : "A LC projeta e executa obras para prédios comerciais, residenciais, edifícios, residências e obras públicas, tudo de forma personalizada, de acordo com os sonhos dos nossos clientes.",
+        "capa" : "capa-lisboa.jpg",
+        "logo" : "lisboa.png",
+        "fotos" : [
+            
+        ],
+        "plantas" : [
+
+        ],
+        "obra" : [
+
+        ]
+
+    },
+    {
+        "nome" : "Unic",
+        "slug" : "unic",
+        "tipo" : "residencial",
+        "descricao" : "A LC projeta e executa obras para prédios comerciais, residenciais, edifícios, residências e obras públicas, tudo de forma personalizada, de acordo com os sonhos dos nossos clientes.",
+        "capa" : "capa-unic.jpg",
+        "logo" : "unic.png",
+        "fotos" : [
+            
+        ],
+        "plantas" : [
+
+        ],
+        "obra" : [
+
+        ]
+
+    },
+    {
+        "nome" : "Cantuário",
+        "slug" : "cantuario",
+        "tipo" : "residencial",
+        "descricao" : "A LC projeta e executa obras para prédios comerciais, residenciais, edifícios, residências e obras públicas, tudo de forma personalizada, de acordo com os sonhos dos nossos clientes.",
+        "capa" : "capa-cantuario.jpg",
+        "logo" : "cantuario.png",
+        "fotos" : [
+            
+        ],
+        "plantas" : [
+
+        ],
+        "obra" : [
+
+        ]
+
+    },
+    {
+        "nome" : "Easy",
+        "slug" : "easy",
+        "tipo" : "residencial",
+        "descricao" : "A LC projeta e executa obras para prédios comerciais, residenciais, edifícios, residências e obras públicas, tudo de forma personalizada, de acordo com os sonhos dos nossos clientes.",
+        "capa" : "capa-easy.jpg",
+        "logo" : "easy.png",
+        "fotos" : [
+            
+        ],
+        "plantas" : [
+
+        ],
+        "obra" : [
+
+        ]
+
+    },
+    {
+        "nome" : "Cidade Verde",
+        "slug" : "cidade-verde",
+        "tipo" : "residencial",
+        "descricao" : "A LC projeta e executa obras para prédios comerciais, residenciais, edifícios, residências e obras públicas, tudo de forma personalizada, de acordo com os sonhos dos nossos clientes.",
+        "capa" : "capa-cidade-verde.jpg",
+        "logo" : "cidade-verde.png",
+        "fotos" : [
+            
+        ],
+        "plantas" : [
+
+        ],
+        "obra" : [
+
+        ]
+    },
+    {
+        "nome" : "Alta Vista",
+        "slug" : "alta-vista",
+        "tipo" : "residencial",
+        "descricao" : "Para curtir a família você precisa sempre sair de casa? O Alta Vista Residence deixa essa realidade no passado. Com uma localização privilegiada, no centro de Taquara, o Alta Vista tem todos os requisitos para te encantar, oferecendo tudo que você espera de um empreendimento de alto padrão, como o Fitness Center Panorâmico, Salão de Festas com Espaço Gourmet, Hall de Entrada finamente decorado, paisagismo e árvores preservadas com uma ampla área de lazer e verde, Playground e Brinquedoteca.", 
+        "capa" : "capa-alta-vista.jpg",
+        "logo" : "alta-vista.png",
+        "fotos" : [
+            
+        ],
+        "plantas" : [
+
+        ],
+        "obra" : [
+
+        ]
+    },
+    {
+        "nome" : "Federação",
+        "slug" : "federacao",
+        "tipo" : "residencial",
+        "descricao" : "Para curtir a família você precisa sempre sair de casa? O Alta Vista Residence deixa essa realidade no passado. Com uma localização privilegiada, no centro de Taquara, o Alta Vista tem todos os requisitos para te encantar, oferecendo tudo que você espera de um empreendimento de alto padrão, como o Fitness Center Panorâmico, Salão de Festas com Espaço Gourmet, Hall de Entrada finamente decorado, paisagismo e árvores preservadas com uma ampla área de lazer e verde, Playground e Brinquedoteca.", 
+        "capa" : "capa-federacao.jpg",
+        "logo" : "federacao.png",
+        "fotos" : [
+            
+        ],
+        "plantas" : [
+
+        ],
+        "obra" : [
+
+        ]
+    },
+    {
+        "nome" : "Evidence",
+        "slug" : "evidence",
+        "tipo" : "residencial",
+        "descricao" : "Para curtir a família você precisa sempre sair de casa? O Alta Vista Residence deixa essa realidade no passado. Com uma localização privilegiada, no centro de Taquara, o Alta Vista tem todos os requisitos para te encantar, oferecendo tudo que você espera de um empreendimento de alto padrão, como o Fitness Center Panorâmico, Salão de Festas com Espaço Gourmet, Hall de Entrada finamente decorado, paisagismo e árvores preservadas com uma ampla área de lazer e verde, Playground e Brinquedoteca.", 
+        "capa" : "capa-evidence.jpg",
+        "logo" : "evidence.png",
+        "fotos" : [
+            
+        ],
+        "plantas" : [
+
+        ],
+        "obra" : [
+
+        ]
+    },
+    {
+        "nome" : "Residência",
+        "slug" : "residencia-diogo",
+        "tipo" : "residencial",
+        "descricao" : "Para curtir a família você precisa sempre sair de casa? O Alta Vista Residence deixa essa realidade no passado. Com uma localização privilegiada, no centro de Taquara, o Alta Vista tem todos os requisitos para te encantar, oferecendo tudo que você espera de um empreendimento de alto padrão, como o Fitness Center Panorâmico, Salão de Festas com Espaço Gourmet, Hall de Entrada finamente decorado, paisagismo e árvores preservadas com uma ampla área de lazer e verde, Playground e Brinquedoteca.", 
+        "capa" : "capa-diogo.jpg",
+        "logo" : "residencias.png",
+        "fotos" : [
+            
+        ],
+        "plantas" : [
+
+        ],
+        "obra" : [
+
+        ]
+    },
+    {
+        "nome" : "Residência",
+        "slug" : "residencia-saft",
+        "tipo" : "residencial",
+        "descricao" : "Para curtir a família você precisa sempre sair de casa? O Alta Vista Residence deixa essa realidade no passado. Com uma localização privilegiada, no centro de Taquara, o Alta Vista tem todos os requisitos para te encantar, oferecendo tudo que você espera de um empreendimento de alto padrão, como o Fitness Center Panorâmico, Salão de Festas com Espaço Gourmet, Hall de Entrada finamente decorado, paisagismo e árvores preservadas com uma ampla área de lazer e verde, Playground e Brinquedoteca.", 
+        "capa" : "capa-saft.jpg",
+        "logo" : "residencias.png",
+        "fotos" : [
+            
+        ],
+        "plantas" : [
+
+        ],
+        "obra" : [
+
+        ]
+    },
+    {
+        "nome" : "Residência",
+        "slug" : "residencia-evandro",
+        "tipo" : "residencial",
+        "descricao" : "Para curtir a família você precisa sempre sair de casa? O Alta Vista Residence deixa essa realidade no passado. Com uma localização privilegiada, no centro de Taquara, o Alta Vista tem todos os requisitos para te encantar, oferecendo tudo que você espera de um empreendimento de alto padrão, como o Fitness Center Panorâmico, Salão de Festas com Espaço Gourmet, Hall de Entrada finamente decorado, paisagismo e árvores preservadas com uma ampla área de lazer e verde, Playground e Brinquedoteca.", 
+        "capa" : "capa-evandro.jpg",
+        "logo" : "residencias.png",
+        "fotos" : [
+            
+        ],
+        "plantas" : [
+
+        ],
+        "obra" : [
+
+        ]
+    }
+]

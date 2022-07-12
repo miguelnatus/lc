@@ -1,0 +1,81 @@
+/* 
+    Document   : empreendimentos.css
+    Author     : Invento Casa Criativa
+*/
+
+/* +body */
+.texto-introducao { max-width:560px; color: #4e4178; font-size: 12px; font-weight: 100; line-height: 180%; margin-bottom: 30px;}
+
+.menu-servicos li a { display: block; padding:0 10px; height: 33px; line-height: 33px; color: #1a1142; text-transform: uppercase; font-family: 'Dosis', sans-serif; font-size: 18px; letter-spacing:.05em;   }
+.menu-servicos li a.selecionado { background-color: #eeefef; }
+
+.lista-servicos > li { background: #eeefef; position: relative; }
+.detalhes-servico h2 { color: #1a1142; text-transform: uppercase; font-family: 'Dosis', sans-serif; letter-spacing:.05em; }
+.detalhes-servico .texto-detalhes { box-sizing: border-box; color: #4e4178; font-size: 12px; font-weight: 100; line-height: 180%; }
+.detalhes-servico .lista-detalhes { box-sizing: border-box; color: #4e4178; font-size: 12px; font-weight: 700; line-height: 180%; text-transform: uppercase; list-style: disc inside; }
+.detalhes-servico .lista-detalhes li { margin-bottom: 10px; }
+.detalhes-servico .lista-detalhes li:last-child { margin-bottom: 0; }
+.detalhes-servico .lista-detalhes li p { font-size: 10px; color: #000; font-weight: 500; line-height: 16px; margin-left: 25px; }
+
+
+@media screen and (max-width: 768px)  {
+	.container { margin-bottom: 20px; }
+	h1 { margin-bottom: 15px; }
+
+	.menu-servicos { padding: 20px 0 20px 0; margin: 0 20px;  }
+	
+	.lista-servicos > li { margin-bottom: 20px; padding: 20px 0; }
+	.detalhes-servico h2 { margin-bottom:20px; font-size: 28px; line-height: 35px; padding-left:12px; border-left: #eca93d 2px solid; }
+	.detalhes-servico .texto-detalhes { padding: 0 16px 16px 16px; }
+	.detalhes-servico .lista-detalhes { padding: 0 16px 0 16px; }
+
+	/* não mostra imagem no mobile */
+	.img-servico { display: none; }
+}
+
+@media screen and (min-width: 769px)  {
+	.container { margin-bottom: 92px; }
+	h1 { float: left; margin-right: 65px; }
+	.texto-introducao { float:left; margin: 13px 0 110px 0; }
+	
+	.menu-servicos { clear: both; display: table; padding: 70px 0 70px 0; margin: 0 auto;  }
+	.menu-servicos li { float: left; padding: 0 10px; }
+
+	.lista-servicos { clear: both; }
+	.lista-servicos > li { height: 355px; margin-bottom: 145px; }
+	.lista-servicos > li:last-child { margin-bottom: 40px; }
+	
+	.detalhes-servico { width: 50%; position: relative; top: 50%; 
+		transform:translate(0, -50%);  
+	}
+	.detalhes-servico h2 { margin-bottom:30px; font-size: 38px; line-height: 28px; }
+	.detalhes-servico .texto-detalhes { width: 50%; float: left; }
+	.detalhes-servico .lista-detalhes { width: 50%; float: left; padding: 0 20px 0 25px; }
+
+	.img-servico { width: 50%; height:404px; overflow: hidden; position: relative; top: 50%; 
+		transform:translate(0, -50%); 
+	}
+	.img-servico img { display: block; position: relative; left: 50%; 
+		transform:translate(-50%, 0); 
+	}
+	
+	.lista-servicos > li:nth-child(odd) .detalhes-servico { float: left; }
+	.lista-servicos > li:nth-child(odd) .img-servico { float: right; }
+	.lista-servicos > li:nth-child(odd) h2 { padding-left:27px; border-left: #eca93d 2px solid; }
+	.lista-servicos > li:nth-child(odd) .texto-detalhes { padding-left: 31px; }
+
+	.lista-servicos > li:nth-child(even) .detalhes-servico { float: right; }
+	.lista-servicos > li:nth-child(even) .img-servico { float: left; }
+	.lista-servicos > li:nth-child(even) h2 { padding-left:20px; border-right: #eca93d 2px solid; }
+	.lista-servicos > li:nth-child(even) .texto-detalhes { padding-left: 22px; }
+
+
+}
+
+@media screen and (min-width: 992px)  {
+	
+}
+
+@media screen and (min-width: 1170px)  {
+   
+}
